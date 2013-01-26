@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.version               = PageWrapper::VERSION
   gem.required_ruby_version = '>= 1.9.2'
 
-  gem.add_dependency "ember-rails", ["~> 0.6.0"]
+  gem.add_dependency "ember-rails", ["~> 0.9.0"]
 
   gem.add_development_dependency 'minitest'
   gem.add_development_dependency 'minitest-reporters'
